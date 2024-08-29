@@ -10,7 +10,7 @@ CounterFitConnection.init('127.0.0.1', 5000)
 sensor = DHT("11", 5)
 
 # URL của ThingsBoard với token thiết bị
-ACCESS_TOKEN = 'tZYkriGzryhR6aXHHL8n'
+ACCESS_TOKEN = 'DtZYkriGzryhR6aXHHL8n'
 THINGSBOARD_URL = f'https://demo.thingsboard.io/api/v1/{ACCESS_TOKEN}/telemetry'
 
 while True:
